@@ -1,0 +1,64 @@
+/*
+ * Copyright (c) 2021-Present, Okta, Inc. and/or its affiliates. All rights reserved.
+ * The Okta software accompanied by this notice is provided pursuant to the Apache License, Version 2.0 (the "License.")
+ *
+ * You may obtain a copy of the License at http://www.apache.org/licenses/LICENSE-2.0.
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ *
+ * See the License for the specific language governing permissions and limitations under the License.
+ */
+
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: #f5fafa;
+}
+
+top-header {
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+.ui.inverted.menu {
+  background-color: #8f8f8f;
+}
+
+.ui.inverted.menu a.item:hover  {
+  color: #8f8f8f;
+  background-color: #a4bfbf;
+}
+
+.ui.inverted.menu div.item:hover {
+  color: #8f8f8f;
+  background: #a4bfbf;
+}
+
+a:hover {
+  color: #8f8f8f;
+}
+
+.ui.inverted.menu .item, .ui.inverted.menu .item > a:not(.ui) {
+  color: #000000;
+}
+
+.ui.text.container {
+  font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
+  max-width: 900px !important;
+  line-height: 1.5;
+}
+
+.ui.inverted.menu.hidden a.item:hover  {
+  color: #8f8f8f;
+  background-color: #e8f3cb;
+}
+
+.ui.inverted.menu.hidden div.item:hover {
+  color: #8f8f8f;
+  background: #a4bfbf;
+}
