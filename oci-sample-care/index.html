@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="/favicon-sw.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Streamward Company</title>
+
+    <style>
+      body {
+          font-family: 'Arial', sans-serif;
+          margin: 0;
+          padding: 0;
+          background-color: #f4f4f4;
+      }
+
+      /* Header Styles */
+      header {
+          color: white;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+      }
+
+      header nav a {
+          color: white;
+          text-decoration: none;
+          margin: 0 15px;
+      }
+
+      header nav a:hover {
+          text-decoration: underline;
+      }
+
+      .cta-button {
+          background-color: #007d9a;
+          padding: 10px 20px;
+          color: white;
+          text-transform: uppercase;
+          font-weight: bold;
+          border-radius: 5px;
+          text-decoration: none;
+      }
+
+      .cta-button:hover {
+          background-color: #007d9a;
+      }
+
+      /* Hero Section Styles */
+      .hero {
+          background-image: url('background-image.jpg');
+          background-size: cover;
+          background-position: center;
+          color: white;
+          height: 50vh;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          text-align: center;
+      }
+
+      .hero h1 {
+          font-size: 3rem;
+          margin-bottom: 10px;
+      }
+
+      .hero p {
+          font-size: 1.5rem;
+          margin-bottom: 20px;
+      }
+
+      .hero .cta-button {
+          background-color: #007d9a;
+          padding: 15px 30px;
+          font-size: 1.2rem;
+      }
+
+      /* Features Section Styles */
+      .features {
+          display: flex;
+          justify-content: space-around;
+          padding: 50px;
+          background-color: white;
+          text-align: center;
+      }
+
+      .features div {
+          flex: 1;
+          padding: 20px;
+      }
+
+      .features div h3 {
+          font-size: 1.5rem;
+          margin-bottom: 15px;
+      }
+
+      /* Testimonial Section Styles */
+      .testimonials {
+          background-color: #f9f9f9;
+          padding: 50px;
+          text-align: center;
+      }
+
+      .testimonials blockquote {
+          font-style: italic;
+          margin: 20px auto;
+          max-width: 600px;
+      }
+
+      .testimonials blockquote cite {
+          display: block;
+          margin-top: 10px;
+          color: #666;
+      }
+
+      /* Footer Styles */
+      footer {
+          background-color: #a4bfbf;
+          color: white;
+          padding: 20px;
+          text-align: center;
+      }
+
+      footer a {
+          text-decoration: none;
+      }
+  </style>
+
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/index.jsx"></script>
+
+  
+    <!-- Features Section -->
+    <section class="features">
+        <div>
+            <h3>Affordable Rates</h3>
+            <p>Get coverage that fits your budget without sacrificing protection.</p>
+        </div>
+        <div>
+            <h3>Comprehensive Coverage</h3>
+            <p>Whether on the road or at sea, we’ve got you covered.</p>
+        </div>
+        <div>
+            <h3>Fast Claims Process</h3>
+            <p>Hassle-free claims to keep you moving forward.</p>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <h2>What Our Customers Say</h2>
+        <blockquote>
+            "I had an accident with my car, and the claim was processed faster than I expected. Great service!"
+            <cite>– Robert Miller</cite>
+        </blockquote>
+        <blockquote>
+            "After a storm damaged my boat, their insurance made the process smooth and stress-free."
+            <cite>– Sarah Green</cite>
+        </blockquote>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Auto & Boat Insurance | <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+    </footer>
+  
+  </body>
+</html>
